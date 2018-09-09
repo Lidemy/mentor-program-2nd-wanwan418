@@ -1,10 +1,7 @@
-
-var firstLetterUpper = function capitalize(str) {
+xfunction capitalize(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1);
 };
-console.log(firstLetterUpper('nick'));
-console.log(firstLetterUpper('Nick'));
-console.log(firstLetterUpper(',hello'));
 
-
-
+console.log(capitalize('nick'));
+console.log(capitalize('Nick'));
+console.log(capitalize(',hello'));
