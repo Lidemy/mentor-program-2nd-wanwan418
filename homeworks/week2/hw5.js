@@ -1,32 +1,26 @@
 function add(a, b) {
- // var result = []
- // var a = ''
- // var b = ''
- // for(var i = 1 , i < a.length, i++) {
- // 	carry = result[i] / 10
- // 	result = a[i] + b[i] + carry
- // 	result[i]% = 10
+  const arrA = a.split('').reverse()
+  const arrB = b.split('').reverse()
+  const ans = ['']
+  const length = Math.max(arrA.length, arrB.length)
 
- // }
-  var carry = 0, result = [],
-      len = Math.max(a.length, b.length), i = len;
-  while (i--) {
-    var sum = (+a[i - len + a.length]||0) + (+b[i - len + b.length]||0) + carry;
-    carry = parseInt(sum / 10);
-    result.unshift(sum % 10);
+  let carry = 0 //進位
+  for(var i = 0; i < length; i++) {
+    ans[i] = Number(arrA[i] || 0 ) + Number(arrB[i] || 0) + carry
+    carry = 0
+    if (ans[i] >= 10) {
+      carry = 1 //兩位相加 只會進位一
+      ans[i] -= 10
+    }
   }
-  // if (carry) result.unshift(carry);
-  // return result.join('');
-}
 
+  if (carry) {
+    ans.push(1)
+  }
 
-for(var i = 0; i = a.length - 1; i++) {
-	var result = a[i] + b[i]
-	if (result >= 10) {
-		result.split(1)
-	} 
+  return ans.reverse().join('')
 
 }
-console.log(result)
+
 
 module.exports = add;
