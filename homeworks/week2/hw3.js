@@ -1,12 +1,12 @@
 function isPrime(n) {
-	if(n < 2) return false
-	for(var i  = 2; i * i <= n; i++) {
-		if(n % i == 0) {
+	if(n <= 1) return false
+
+	for(var i = 2; i < n ; i++) {
+		if(n % i === 0) {
 			return false
-		} else {
-			return true
 		}
 	}
+	return true
 }
 
 module.exports = isPrime
