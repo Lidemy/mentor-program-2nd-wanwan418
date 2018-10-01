@@ -1,9 +1,10 @@
 {
   "name": "mentor-program-2nd",
   "version": "1.0.0",
-  "description": "",
+  "description": "## 這是什麼",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest --env=node"
   },
   "author": "",
@@ -13,11 +14,24 @@
     "babel-jest": "^22.0.6",
     "babel-preset-es2015": "^6.24.1",
     "jest": "^22.0.6",
+    "left-pad": "^1.3.0",
     "regenerator-runtime": "^0.11.1"
   },
+<<<<<<< HEAD
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.0"
   }
+=======
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lidemy/mentor-program-2nd-wanwan418.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lidemy/mentor-program-2nd-wanwan418/issues"
+  },
+  "homepage": "https://github.com/Lidemy/mentor-program-2nd-wanwan418#readme"
+>>>>>>> 93dddab5f915043a84b1e6eb2f7dc9af16d5a698
 }
