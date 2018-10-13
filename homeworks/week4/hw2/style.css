@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	z-index: auto;
+	background-color: #b352193b;
+}
+
+.background__above {
+	z-index: 1;
+	color: yellow;
+	background-image:url('https://image.freepik.com/vector-gratis/vector-dibujos-de-espacio_23-2147492331.jpg');
+	height: 275px;
+}
+
+.form__container {
+	z-index: 2;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: -100px;
+	width: 648px;
+	border-top: 10px solid orange;
+	}
+
+.form__title {
+	font-size: 34px;
+	box-sizing: border-box;
+	max-width: 100%;
+	padding: 30px 0px 15px 30px;
+}
+
+.form__description p {
+	white-space: pre-wrap;
+  padding: 5px 0px 5px 30px;
+  margin: 0px;
+  font-size: 13px;
+}
+
+.form__description span {
+	white-space: pre-wrap;
+  padding: 5px 0px 5px 30px;
+  margin: 0px;
+  font-size: 13px;
+  color: red;
+}
+
+input {
+	font-size: 16px;
+/*	display: block;*/
+	margin-top: 20px;
+}
+
+input:invalid + span:after {
+  /*background-color: #ffebee
+	content: '這是必填問題';*/
+	/*font-size: 16px;*/
+	border-bottom: 3px solid #db4437;
+	display: block;
+	padding-top: 8px;
+}
+
+input:valid + span:after {
+	content: '✓';
+	font-size: 16px;
+	color: green;
+	display: inline-block;
+	padding-top: 8px;
+}
+
+.must {
+	color: red;
+	font-size: 16px;
+	padding: 3px;
+}
+
+label {
+	font-size: 16px;
+}
+
+.form__question {
+	margin: 0 auto;
+	padding: 20px 35px 20px 35px;
+	font-size: 20px;
+}
+
+.form__question_description {
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+#submit {
+	margin: 30px 0px 0px 30px;
+	color: white;
+	width: 90px;
+	height: 35px;
+	background-color: #3c74dc;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+#submit:hover {
+	cursor: pointer;
+}
+
+p {
+	margin-top: 8px;
+	padding: 20px 0px 30px 30px;
+	font-size: 10px;
+	color: gray;
+}
+
+.invalid {
+	background-color: #ffebee;
+	content: '這是必填問題';
+}

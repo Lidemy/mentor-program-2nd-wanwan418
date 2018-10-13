@@ -17,6 +17,13 @@
     "left-pad": "^1.3.0",
     "regenerator-runtime": "^0.11.1"
   },
+<<<<<<< HEAD
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+=======
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -26,4 +33,5 @@
     "url": "https://github.com/Lidemy/mentor-program-2nd-wanwan418/issues"
   },
   "homepage": "https://github.com/Lidemy/mentor-program-2nd-wanwan418#readme"
+>>>>>>> 93dddab5f915043a84b1e6eb2f7dc9af16d5a698
 }
