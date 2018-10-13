@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<body>
+
+	<h1>ooops</h1>
+
+<script>
+	function q(selector) {
+		const element = document.querySelector(selector)
+			return {
+				hide: () => {
+					element.style.display = "none";
+				},
+				show: () => {
+					element.style.display = "block";
+				}
+			}	
+	}
+
+	var element = q("h1")
+	element.hide();
+	element.show();
+
+</script>
+</body>
+</html>

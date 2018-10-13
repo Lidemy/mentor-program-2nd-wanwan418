@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>wanwan hw4-2</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="background__above"><img src="" alt=""></div>
+	<div class="form__container">
+		<div class="form__title">
+			程式導師實驗計畫第二期報名表單
+		</div>
+		<div class="form__description">
+			<p>詳情請參考：<a href="https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b">https://medium.com/hulis-blog/mentor-program-s2-f876c4e13d3b</a></p>	
+			<p>填完之後請務必按照文章內的說明再寄信給我，才算報名成功喔</p>
+			<span class="required">*必填</span>
+		</div>
+
+		<div class="form__question">電子信箱地址<span class = "must">*</span>
+			<div></div>
+			<input type="input" name="text" class="email" placeholder="你的電子郵件" required >
+			<span class="validity"></span>
+		</div>
+	
+		
+		<div class="form__question">暱稱<span class = "must">*</span>
+			<div class="form__question_description">該怎麼稱呼你</div>
+			<input type="input" name="text" class="nickname" placeholder="您的回答" required >
+			<span class="validity"></span>
+		</div>
+	
+		<div class="form__question">報名類型<span class = "must">*</span>
+			<div class="form__question_description">該怎麼稱呼你</div>
+			<input type="radio" name="text" class="radio1" required>
+				<label for="professional">工程師培養班（每週付出四十小時，從零培養到工程師，學費是一個月薪水）</label> 
+			<input type="radio" name="text" class="radio2" required>
+				<label for="amateur">業餘班（依照個人目標訂立學習計畫，學費一萬五千元）</label>
+				<span class="validity"></span>
+		</div>
+
+		<div class="form__question">現在的職業<span class = "must">*</span>
+			<div class="form__question_description">範例：學生、前端工程師、待業中、業務</div>
+			<input type="input" name="text" class="job" placeholder="您的回答" required >
+    </div>
+
+		<div class="form__question">是否有程式相關背景？<span class = "must">*</span>
+			<div class="form__question_description">範例：無、高中時候學過C++、學過一點網頁前端、目前在資策會上課...</div>
+			<input type="text" name="text" class="background" placeholder="您的回答" required >
+			<span class="validity"></span>
+		</div>
+
+		<div class="form__question">其他
+			<div class="form__question_description">其他任何你想講的</div>
+			<input type="text" name="text" class="others" placeholder="您的回答">
+		</div>
+
+		<input id= 'submit' type="submit" >
+		
+		<p>請勿利用 Google 表單送出密碼。</p>	
+	</div>
+
+	<script src="./index.js"></script>
+</body>
+</html>
