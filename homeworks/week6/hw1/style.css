@@ -1,0 +1,198 @@
+
+body {
+  font-family: Helvetica, ‘Hiragino Sans GB’, ‘Microsoft Yahei’, ‘微软雅黑’, Arial, sans-serif;
+  background: url(../mentor_wanwan/bg.jpg);
+}
+
+.nav {
+  position: fixed;
+  background: rgba(15,37,64,0.9);
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  padding: 0 32px;
+  justify-content: space-between;
+  z-index: 10;
+
+}
+
+.nav__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav__item + .nav__item {
+  margin-left: 16px;
+}
+
+.nav__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav__item a:hover {
+  color: #b3afaf;
+}
+
+.container {
+  margin-top: 54px;
+  padding: 5px;
+  display: flex;
+}
+
+.form-wrapper {
+  text-align: inherit;
+}
+
+.form {
+  display: inline-block;
+  padding: 50px;
+}
+
+.form__row {
+  margin-bottom: 12px;
+  border: 0;
+
+}
+
+.textarea {
+  border-radius: 4px;
+  border: none;
+  resize : none; /* Firefox, Chrome */
+  width: 500px;
+  background-color: rgba(255,255,251,0.7)
+}
+
+.textarea2 {
+  border-radius: 4px;
+  border: none;
+  resize : none; /* Firefox, Chrome */
+  width: 500px;
+  background: #242227;
+  opacity: 0.8;
+}
+
+.comments {
+  width: 650px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.comment {
+  margin-bottom: 12px;
+  background: #505558;
+  padding: 20px;
+
+  border-radius: 8px;
+  position: relative;
+  color:white;
+}
+
+.comment__content {
+  margin: 12px 0px;
+}
+
+.sub-comments {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
+}
+
+.sub-comment {
+  margin-bottom: 12px;
+  background:black;
+  padding: 14px;
+  /* border: 1px solid gray; */
+  border:none;
+  position: relative;
+}
+
+.add-sub-comment {
+  margin-bottom: 12px;
+  background: #242227;
+  padding: 10px;
+  border:none;
+  /* border: 1px solid gray; */
+}
+
+.sub-comment__content {
+  margin: 12px 0px;
+}
+
+.delete-comment {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+.edit-comment {
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+
+.page {
+  text-align: center;
+  margin-top: 85%;
+
+}
+
+.page a {
+  padding:10px;
+  text-decoration:none;
+  color: rgb(109, 48, 7);
+  font-size: 18px;
+  font-weight: bold;  
+}
+
+a:hover {
+  color: orangered;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  opacity: 0.85;
+  color: black;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
