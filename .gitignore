@@ -1,1 +1,7 @@
 node_modules/
+
+
+# 忽略 homewotks 目錄下的 conn.yml 檔案
+homeworks/week5/hw2/conn.php
+
+homeworks/week6/hw1/conn.php
