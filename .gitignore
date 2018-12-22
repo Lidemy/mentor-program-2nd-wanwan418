@@ -1,1 +1,8 @@
+# 檔案名稱 .gitignore
 node_modules/
+
+# 忽略 homewotks 目錄下的 conn.php 檔案
+homeworks/week5/hw2/conn.php
+
+# 忽略 homewotks 目錄下的 conn.php 檔案
+homeworks/week6/hw1/conn.php
