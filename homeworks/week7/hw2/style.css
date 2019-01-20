@@ -1,0 +1,40 @@
+.container {
+  margin: 150px;
+  padding: 35px;
+  border: 1px solid gray;
+  border-radius: 4px;
+
+}
+
+.title {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li {
+  padding: 8px;
+  font-size: 18px;
+}
+
+#todoForm {
+  padding: 10px;
+}
+
+#todoForm input {
+  margin-bottom: 20px;
+}
+
+#todoForm button {
+  margin-right: 20px;
+}
+
+li:hover{
+  background-color: antiquewhite;
+  border-radius: 4px;
+}
+
+
