@@ -1,5 +1,5 @@
 ## Bootstrap 是什麼？
-  bootstrap 像是網頁套版，有固定的class名稱可以套用在html的標籤上，例如有一個 div，在尚未設定CSS前，他的div是照著display的block，但今天如果在是<div class="container">，bootstrap內的container可能設定的位置是置中的，就可以有一個固定的模板去套用，減少全手刻css的時間。
+  bootstrap 像是網頁套版，有固定的class名稱可以套用在html的標籤上，例如有一個 div，在尚未設定CSS前，他的div是照著display的block，但今天如果在是< div class="container" >，bootstrap內的container可能設定的位置是置中的，就可以有一個固定的模板去套用，減少全手刻css的時間。
 
 ## 請簡介網格系統以及與 RWD 的關係
   960 Grid System是網格系統，主要是因為早期的電腦螢幕寬度約為 1024，扣除瀏覽器的捲軸及邊框，960 則是許多數值的最小公倍數，所以被廣泛的討論及使用，直到現在許多 CSS 框架也是有 960 的設定值在內。 960 區分為 12 欄（column）。而RWD (Response Web Design)響應式網站設計，因應現代裝置多元，是指在不同裝置上可以（從桌面電腦顯示器到行動電話或其他行動產品裝置）上瀏覽時對應不同解析度皆有適合的呈現，減少使用者進行縮放、平移和捲動等操作行為。在不同裝置下，某些標籤或標題可能所占欄數有差異，當有了網格系統可以較精準的表達佔了幾欄。

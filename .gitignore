@@ -1,1 +1,5 @@
 node_modules/
+
+# 檔案名稱 .gitignore
+# 忽略 homeworks/week7/hw3/conn.php 目錄下的 conn.php 檔案
+homeworks/week7/hw3/conn.php
