@@ -1,0 +1,53 @@
+.container {
+  margin-top: 5%;
+  z-index: 2;
+}
+
+.card{
+  margin-top: 5%;
+}
+
+.comments {
+  margin-bottom: 10%;
+}
+
+.sub-comments {
+  width: 80%;
+  margin-left: 76px;
+  margin-top: 15px;
+}
+
+.sub-comment {
+  padding: 20px;
+  background-color: #c5ece7b3;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.card > hr {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.edit-comment {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.delete-comment {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.pagination {
+  margin-top: 5%;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
